@@ -15,9 +15,15 @@ let numero = 21;
 console.log(numero);
 
 // Creo la variabile che contenga la somma delle variabili sopra citate
-let password = `${nomeUtente} ${cognome} ${colorePreferito} ${numero}`;
+let password = `${nomeUtente}${cognome}${colorePreferito}${numero}`;
 console.log(password);
 
 // Provo la concatenazione con +
 // let password = nomeUtente +" "+ cognome +" "+ colorePreferito +" "+ numero;
 // console.log(password);
+
+// -------------------------------------------------------
+// Creo una funzione che stampi nella pagina la password dell'utente
+
+document.getElementById("nuova-password").innerHTML = "La tua nuova password è:" +" "+ password;
+console.log("La tua nuova password è: " + password);
