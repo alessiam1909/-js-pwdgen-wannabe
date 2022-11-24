@@ -1,0 +1,6 @@
+PROBLEMA: CREA UN GENERATORE DI PASSWORD NON SICURO
+1- Inserisco il nome
+2- Inserisco il cognome
+3- Inserisco colore preferito
+4- Inserisco automaticamente il numero 21
+5- Creo una funzione che stampi nella pagina la somma di nome+cognome+colore+21, considerata password dell'utente
